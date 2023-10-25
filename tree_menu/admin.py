@@ -1,3 +1,4 @@
 from django.contrib import admin
+from tree_menu.models import TableSection
 
-# Register your models here.
+admin.site.register(TableSection)
